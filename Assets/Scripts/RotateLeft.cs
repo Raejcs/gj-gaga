@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class RotateLeft : MonoBehaviour {
-    public static float sensetivityX = 1f;
+    public float sensetivityX = 1f;
 	// Use this for initialization
 	void Start () {
 	
