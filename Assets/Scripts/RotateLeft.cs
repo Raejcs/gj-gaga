@@ -11,6 +11,5 @@ public class RotateLeft : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         transform.Rotate(0, Input.GetAxis("Mouse X") * Time.deltaTime * sensetivityX, 0);
-        
 	}
 }
