@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class RotateUp : MonoBehaviour {
-
+    public float sensetivityY = 1f;
 	// Use this for initialization
 	void Start () {
 	
@@ -10,6 +10,6 @@ public class RotateUp : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.Rotate(-Input.GetAxis("Mouse Y") * Time.deltaTime * RotateLeft.sensetivity, 0, 0);
+        transform.Rotate(-Input.GetAxis("Mouse Y") * Time.deltaTime * sensetivityY, 0, 0);
 	}
 }
