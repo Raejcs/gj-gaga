@@ -45,7 +45,8 @@ public class movement : MonoBehaviour {
             //GetComponent<Rigidbody>().MovePosition(transform.position + transform.right * Time.deltaTime * speed);
             //transform.Translate(Vector3.right * Time.deltaTime * speed);
         }
-        
+
+
         GetComponent<Rigidbody>().MovePosition(velocity);
 
     }
